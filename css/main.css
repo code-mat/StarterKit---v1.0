@@ -1,17 +1,2 @@
-/* CSS Document */
-/* ################ FONT FACE ################# 
-
-@font-face {
-	font-family: "";
-	src: url(../fonts/.ttf);
-}
-
-
-############################################ */
-* {
-  box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box; }
-
+*{box-sizing:border-box;-ms-box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}
 /*# sourceMappingURL=main.css.map */
