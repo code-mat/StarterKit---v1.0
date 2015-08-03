@@ -291,6 +291,7 @@ samp {
  *    Known issue: affects color of disabled elements.
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ * 4. Delete outline property - textarea, input, button.
  */
 
 button,
@@ -298,6 +299,7 @@ input,
 optgroup,
 select,
 textarea {
+  outline: 0;
   color: inherit; /* 1 */
   font: inherit; /* 2 */
   margin: 0; /* 3 */
@@ -364,6 +366,7 @@ input::-moz-focus-inner {
  */
 
 input {
+  outline: 0;
   line-height: normal;
 }
 
@@ -395,11 +398,16 @@ input[type="number"]::-webkit-outer-spin-button {
 /**
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ * 3. List style type: `none`.
  */
 
 input[type="search"] {
   -webkit-appearance: textfield; /* 1 */
   box-sizing: content-box; /* 2 */
+}
+
+ul {
+  list-style-type: none;
 }
 
 /**
