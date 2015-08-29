@@ -90,3 +90,19 @@
 	animation-iteration-count: $iteration;
 
 }
+
+@mixin media-query($width-px) { 
+
+	@media screen and (max-width: $width-px) {
+		@content;
+	}
+
+}
+
+@mixin media-query-min($width-px) { 
+
+	@media (min-width: $width-px) {
+		@content;
+	}
+
+}
