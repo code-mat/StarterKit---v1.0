@@ -46,3 +46,47 @@
 	}
 
 }
+
+@mixin keyframes($name) {
+
+	@-webkit-keyframes #{$name} {
+		@content; 
+	}
+
+	@-moz-keyframes #{$name} {
+		@content;
+	}
+
+  	@-ms-keyframes #{$name} {
+		@content;
+	}
+
+	@keyframes #{$name} {
+		@content;
+	}
+
+}
+
+@mixin animation ($name, $duration, $timing-function, $iteration) {
+
+	-webkit-animation-name: $name;
+	-webkit-animation-duration: $duration;
+	-webkit-animation-timing-function: $timing-function;
+	-webkit-animation-iteration-count: $iteration;
+	
+	-moz-animation-name: $name;
+	-moz-animation-duration: $duration;
+	-moz-animation-timing-function: $timing-function;
+	-moz-animation-iteration-count: $iteration;
+
+	-o-animation-name: $name;
+	-o-animation-duration: $duration;
+	-o-animation-timing-function: $timing-function;
+	-o-animation-iteration-count: $iteration;
+
+	animation-name: $name;
+	animation-duration: $duration;
+	animation-timing-function: $timing-function;
+	animation-iteration-count: $iteration;
+
+}
