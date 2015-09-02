@@ -12,8 +12,7 @@ module.exports = function(grunt) {
 			},
 			my_target: {
 				files: {
-					'js/output.min.js': ['js/respond.js', 'js/modernizr-2.8.3.min.js',
-					'js/bootstrap.min.js', 'js/plugins.js', 'js/main.js']
+					'js/output.min.js': ['js/bootstrap.min.js', 'js/plugins.js', 'js/main.js']
 				}
 			}
 		},
