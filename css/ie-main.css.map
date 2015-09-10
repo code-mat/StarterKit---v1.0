@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAKA,UAQC,CAPA,WAAW,CAAE,EAAE,CACf,GAAG,CAAE,wBAAwB,CAC7B,GAAG,CAAE,sIAAiD,CAGtD,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,MAAM",
+"sources": ["../scss/ie-main.scss"],
 "names": [],
 "file": "ie-main.css"
 }
